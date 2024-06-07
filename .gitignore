@@ -25,3 +25,6 @@ Thumbs.db
 
 # assets
 public/data/config.json
+
+# icons
+src/icons/

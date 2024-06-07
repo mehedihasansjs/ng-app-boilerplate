@@ -1,24 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TenantService } from '@core';
+import { SvgIconComponent } from '@ngneat/svg-icon';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, SvgIconComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  providers: [TenantService]
+  providers: []
 })
-export class AppComponent implements OnInit {
-  constructor(
-    private tenantService: TenantService,
-  ) {
-  }
-
-  ngOnInit() {
-    this.tenantService.getByDomain()
-      .pipe()
-      .subscribe();
-  }
-}
+export class AppComponent {}

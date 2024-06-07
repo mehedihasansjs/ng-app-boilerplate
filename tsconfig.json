@@ -22,7 +22,8 @@
     "paths": {
       "@app": [ "src/app/index" ],
       "@core": [ "src/core/index" ],
-      "@store": [ "src/store/index" ]
+      "@store": [ "src/store/index" ],
+      "@icons/*": [ "src/icons/*" ]
     }
   },
   "angularCompilerOptions": {
