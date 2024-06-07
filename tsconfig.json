@@ -21,7 +21,8 @@
     "lib": [ "ES2022", "dom" ],
     "paths": {
       "@app": [ "src/app/index" ],
-      "@core": [ "src/core/index" ]
+      "@core": [ "src/core/index" ],
+      "@store": [ "src/store/index" ]
     }
   },
   "angularCompilerOptions": {
