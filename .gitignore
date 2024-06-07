@@ -22,3 +22,6 @@ package-lock.json
 # System files
 .DS_Store
 Thumbs.db
+
+# assets
+public/data/config.json
