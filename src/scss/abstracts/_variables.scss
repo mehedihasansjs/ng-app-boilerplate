@@ -1,23 +1,19 @@
 :root {
-  --color-brand: #0a5c83;
-  --color-brand-text: #ffffff;
+  --color-primary: #ec7211; // branding, primary actions, selected, focused, activated
+  --color-primary-dark: #eb5f07; // primary color hover state
 
-  --color-positive: #087308;
-  --color-positive-text: #f8f8f8;
+  --color-hyperlink: #007dbc; // hyperlink color
+  --color-hyperlink-dark: #00a1c9; // hyperlink color hover state
 
-  --color-negative: #ae0045;
-  --color-negative-text: #f8f8f8;
+  --color-positive: #4caf50; // success, positive, confirmation
+  --color-positive-dark: #43a047; // success, positive, confirmation hover state
 
-  --color-warning: #ffcc00;
-  --color-warning-text: #000000;
+  --color-negative: #f44336; // error, negative, alert
+  --color-negative-dark: #e53935; // error, negative, alert hover state
 
-  --color-info: #0077cc;
-  --color-info-text: #f8f8f8;
+  --color-warning: #ffeb3b; // warning, attention, caution
+  --color-warning-dark: #fdd835; // warning, attention, caution hover state
 
-  --color-link: #1b76b8;
-
-//  fonts
-  --font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-family-serif: Georgia, 'Times New Roman', Times, serif;
-  --font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --color-neutral: #9e9e9e; // neutral, secondary, disabled, inactive
+  --color-neutral-dark: #757575; // neutral, secondary, disabled, inactive hover state
 }
